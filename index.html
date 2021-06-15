@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--  nhấn ! enter là ra cấu trúc cơ bản của 1 html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE BAND</title>
+    <link rel="icon" href="https://tek4.vn/wp-content/uploads/2020/10/310-3108154_web-assets-button-coding-icon.jpg" type="image/x-icon" />
+    <!-- tạo icon cho wweb lấy link ở link favicon html -->
+    <link rel="stylesheet" href="./assets/css/syles.css">  
+    <link rel="stylesheet" href="./assets/css/Responsive.css">  
+
+    <!-- link đến css đây là External -->
+    <!-- link:css để link tới laasy icon -->
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <!-- cần tạo 1 thẻ div để bao bọc tất cả trang website thường thì nta sẽ dung Id 
+    khi có nhiều nội dung thì mới dùng class
+khi đổi từ id qua class thì bôi đen crtl D-->
+<!-- crtl shift L nũi tên phải Alt shif mũi tên phải rồi copy  -->
+    <div id="main">
+        <div id="header">
+            <!--  ul#nav>li*5>a
+            để tạo ra menu có 5 mục dùng thẻ a để sau này có thể link vào dc -->
+            <!-- begin nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">More
+                    <i class="nav-arrow-down ti-angle-down"></i>
+                    <!-- thẻ i để gán link class icon  -->
+                </a>
+                <!-- ul.subnav>li*3>a 
+                tạo ra 1 menu cấp 2 vì no giống nhau nên dùng class -->
+                <ul class="subnav">
+                    <li><a href="#">Mechandise</a></li>
+                    <li><a href="#">Exstra</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            
+            </li>
+            </ul>
+            <!-- end nav -->
+            <!-- begin searh button -->
+            
+
+         <div id="mobile-btn" class="menu-icon mobile-menu">
+             <i class="ti-menu"></i>
+         </div>
+        </div>
+        <div class="search-btn">
+
+            <i class="icon-search ti-search"></i>
+            <!-- gán link icon 2 chữ đầu là tên class -->
+        </div>
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+            
+            <div class="text-description">The atmosphere in New York is lorem ipsum.</div>
+
+
+        </div>
+        </div>
+
+
+        <div id="content">
+            <div id="band" class="content-section">
+                <h2 class="content-section-heading">THE BAND</h2>
+                 <p class="content-subheading">we love music</p>
+                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <div class="member-list">
+                <div class="mobile-item member-iteam">
+                <p class="member-name">name</p>
+                <img src="./assets/img/menber band/1.jpg" alt="" class="member-img">
+                
+                </div>
+
+                <div class="mobile-item member-iteam">
+                <p class="member-name">name</p>
+                <img src="./assets/img/menber band/1.jpg" alt="" class="member-img">
+                </div>
+           
+                <div class="mobile-item member-iteam">
+                <p class="member-name">name</p>
+                <img src="./assets/img/menber band/1.jpg" alt="" class="member-img">
+                </div>
+                <div class="clear"></div>
+            </div>
+            </div>
+            <div id="tour" class="tour-section">
+
+                <div class="content-section">
+                    <h2 class="content-section-heading text-white">TOUR DATES
+                    </h2>
+                     <p class="content-subheading text-white">Remember to book your tickets!</p>
+                     <!-- thêm text -white để có thuộc tính chữ trắng -->
+                     <ul class="sticket-list">
+                         <li>September <span class="sold-out">Sold out</span> </li>
+                         <li>Octobert <span class="sold-out">Sold out</span> </li>
+                 <!-- để có thể viết cùng hàng tên .span tên đặt -->
+                         <li>November <span class="quantity">3</span></li>
+                     </ul>
+                     <!-- place -->
+                     <div class=" place-list ">
+                         <div class="s-col-full place-item">
+                             <img src="./assets/img/place/1.jpg" alt=" New York" class="place-img">
+                             <div class="body-place">
+                                 <h3 class="place-heading">New York</h3>
+                                 <p class="place-time">Fri 27 Nov 2016</p>
+                                 <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                 <a href="#" class="s-full-width btn">Buy Tickets</a>
+                             </div>
+
+                         </div>
+                         <div class="s-col-full place-item">
+                            <img src="./assets/img/place/2.jpg" alt=" paris" class="place-img">
+                            <div class="body-place">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">
+                                    Sat 28 Nov 2016</p>
+                                <p class="place-text"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="s-full-width btn">Buy Tickets</a>
+                            </div>
+
+                        </div>
+                        <div class="s-col-full place-item">
+                            <img src="./assets/img/place/3.jpg" alt=" san Fancisco" class="place-img">
+                            <div class="body-place">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">
+                                    Sun 29 Nov 2016</p>
+                                <p class="place-text"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="s-full-width btn">Buy Tickets</a>
+                            </div>
+
+                        </div>
+                        <div class="clear"></div>
+                        <!-- đặt ở vị trí cần bao bọc -->
+                     </div>
+                </div>
+            </div>
+            
+            <div id="contact" class="content-section">
+                <h2 class="content-section-heading">CONTACT</h2>
+                 <p class="content-subheading">Fan Drop a note!</p>
+                 <!-- áp dụng theo hàng và cột -->
+                 <div class="row contact-content">
+                     <div class="s-col-full col col-half contact-in4">
+                         <p><i class="ti-location-pin"></i> Chicago, US</p>
+                                           <!-- i.tên icon -->
+                           
+                         <p><i class="ti-mobile"></i>Phone: <a href=" tel:+00 151515">+00 151515</a> </p>
+                         <!-- thẻ a kia để gọi dc lun -->
+                         <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a> </p>
+                      
+                     </div>
+                    
+                     <div class=" s-col-full col col-half contact-form">
+                         <form action="">
+                             <div class="row">
+                                 <div class="col col-half s-col-full">
+                                     <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                     <!-- thêm reqiued để khi k nhập thông tin mà b muốn gửi nó sẽ cảnh báo -->
+                                 </div>
+                                 <div class="col col-half s-col-full mt-8">
+                                    <input type="email" name="" placeholder="email" required id="" class="form-control">
+                             </div>
+                             </div>
+              
+                             <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="message" required id="" class="form-control">
+                               
+                          
+                             <input class="contact-mobie s-full-width btn mt-16 pull-right" type="submit" value="SEND">
+                            </div>
+                     </div>
+                    </form>
+                    
+                 </div>
+            
+        
+        </div>
+        
+        </div>
+       <!-- map -->
+       <div class="map-section">
+        <img src="/assets/img/map/map.jpg" alt="map">
+    </div>
+    
+    
+
+        <div id="footer">
+     <div class="sociol-list">
+         <a href="#"><i class="ti-facebook"></i></a>
+         <a href="#"><i class="ti-instagram"></i></a>
+        <a href="#"><i class="ti-pinterest"></i></a>
+        <a href="#"><i class="ti-twitter-alt"></i></a>
+        <a href="#"><i class="ti-linkedin"></i></a>
+        <a href="#"><i class="ti-youtube"></i></a>
+        
+     </div>
+     <p class="copy-text">Powered by <a href=""> w3.css</a></p>
+        </div>
+    </div>
+    <!-- làm ẩn hiện thanh điều hướng khi click trên ứng dụng mobile -->
+<script>
+    var header=document.getElementById('header');
+    var mobileBtn=document.getElementById('mobile-btn');
+    var headerHeight = header.clientHeight;
+    // đóng mở menu
+    mobileBtn.onclick= function() {
+    var isClosed = header.clientHeight === headerHeight;
+     if(isClosed){
+         header.style.height='auto';
+     }else{
+         header.style.height='46px';
+     }
+    }
+    //  tự động đóng menu khi chọn phần tử trong nenu
+    var menuItems =document.querySelectorAll('#nav li a[href*="#"]');
+        for (i=0; i<menuItems.length;i++) {
+            var menuItem = menuItems[i];
+           
+            menuItem.onclick =function(event) {
+                var isParentMenu= this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+            // kiểm tra xem có amh e liền kề k và có chứa subnav k nếu đúng thì lưu đúng vào gtri biến 
+                if(!isParentMenu){
+
+                    header.style.height ='46px';
+                }else{
+                    event.preventDefault();
+                    // lệnh bỏ qua 
+                    // để k bị trôi 
+
+                }
+            }
+        }
+ 
+
+</script>
+</body>
+</html>

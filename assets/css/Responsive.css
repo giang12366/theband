@@ -1,0 +1,112 @@
+/* thay đổi giao diện trên mobile */
+@media (max-width: 1024px) {
+/* trên pc */
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .contact-in4 {
+       
+        line-height: 2;
+        /* rộng kc các hàng vs nhau ở phần contact */
+    }
+    
+
+}
+@media (max-width:1023px) {
+    
+    /* trên ipad và mobile*/
+.btn{
+    padding: 15px 16px;
+
+}
+.contact-form .form-control{
+    padding: 15px;
+    /* rộng nút bấm và ô nhập ìnormation */
+    font-size: 16px;
+}
+.contact-mobie {
+    font-size:16px ;
+}
+.sociol-list{
+    font-size: 48px;
+    /* to icon */
+}
+#footer .sociol-list a{
+    margin: 0 8px;
+    /* cách icon */
+}
+#footer .copy-text{
+    padding: 12px 0;
+    display: inline-block;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width: 740px) {
+    .s-full-width{
+        width: 100%;
+        text-align: center;
+        /* mở rộng nút gửi trên mobie */
+    }
+    .s-col-full{
+        width: 100%;
+        margin-top: 16px;
+        /* cho ảnh thành 1 hàng dọc */
+    }
+    #content .mobile-item{
+        margin-top: 10%;
+        width: 100%;
+        /* cho 3 ảnh trên mobile hành 1 hàng dọc */
+    
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    #nav{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+        /* mở rộng padding để tay dễ lướt trên đt */
+    }
+    #nav>li {
+        display: block;
+        /* để thanh điều hướng thành dọc */
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        /* hiện menu phụ khi clcik vào */
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+        /* ẩn meu phụ */
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    #header .icon-search{
+        display: none;
+        /* ẩn icon */
+}
+.contact-form{
+    margin-top: 16px;
+  
+}
+.mt-8{
+    margin-top: 8px;
+}
+}
